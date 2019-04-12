@@ -8,6 +8,7 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+"CF Git
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'itchyny/vim-gitbranch'
@@ -57,7 +58,7 @@ nnoremap <C-UP> :tabn<CR>
 nnoremap <C-DOWN>  :tabp<CR>
 
 " --------------
-" --- Cursorline 
+" --- Cursorline barre grise sur la ligne courante 
 " --------------
 
 set cursorline
@@ -136,5 +137,4 @@ let g:ConqueTerm_CloseOnEnd = 1
 let g:ConqueTerm_InsertOnEnter = 0
 let g:ConqueTerm_StartMessages = 1                                                    
 let g:ConqueGdb_ToggleBreak = g:ConqueGdb_Leader . 'b'
-
 
